@@ -1,0 +1,11 @@
+{
+  "name": "testcafe-template",
+  "version": "1.0.0",
+  "description": "testcafe-template",
+  "main": "app.js",
+  "scripts": {
+    "app": "node app.js"
+  },
+  "author": "1600133971",
+  "license": "MIT"
+}

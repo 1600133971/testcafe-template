@@ -1,0 +1,7 @@
+{
+  "path": {
+    "result": "./result/",
+    "web": "./web/",
+    "test": "./test/"
+  }
+}
