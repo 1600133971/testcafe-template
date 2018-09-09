@@ -1,22 +1,23 @@
 const Selector = require('testcafe').Selector;
+let cfg = require('../config.json');
 const config = [
   {
     "fixture": "#1",
     "id": 1,
     "title": "home",
-    "url": "http://localhost:8085/web/testcafe/example/index.html"
+    "url": cfg.url
   },
   {
     "fixture": "#2",
     "id": 2,
     "title": "register",
-    "url": "http://localhost:8085/web/testcafe/example/index.html"
+    "url": cfg.url
   },
   {
     "fixture": "#3",
     "id": 3,
     "title": "login",
-    "url": "http://localhost:8085/web/testcafe/example/index.html"
+    "url": cfg.url
   }
 ];
 

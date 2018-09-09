@@ -1,4 +1,5 @@
 {
+  "url": "http://localhost:8085/web/testcafe/example/index.html",
   "path": {
     "result": "./result/",
     "web": "./web/",

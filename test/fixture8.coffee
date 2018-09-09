@@ -1,7 +1,8 @@
 import { Selector } from 'testcafe'
+config = require('../config.json');
 
-fixture 'CoffeeScript Example'
-    .page 'http://localhost:8085/web/testcafe/example/index.html'
+fixture `CoffeeScript Example`
+    .page `${config.url}`
 
 nameInput = Selector '#developer-name'
 

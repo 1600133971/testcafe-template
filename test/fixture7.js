@@ -1,8 +1,9 @@
 import { Selector } from 'testcafe';
-import { f } from '../utils/f';
+import { f } from '../utils/testcafe-helper';
+let config = require('../config.json');
 
 fixture`Getting seventh`
-  .page`http://localhost:8085/web/testcafe/example/index.html`;
+  .page`${config.url}`;
 
 test('#1', async t => {
   await f.waitForAppear('#developer-name', 1000);

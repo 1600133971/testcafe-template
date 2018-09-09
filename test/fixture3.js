@@ -1,7 +1,8 @@
 ﻿import { Selector } from 'testcafe';
+let config = require('../config.json');
 
 fixture`Getting third`
-  .page`http://localhost:8085/web/testcafe/example/index.html`;
+  .page`${config.url}`;
 
 test('My first test 1', async t => {
   await t
